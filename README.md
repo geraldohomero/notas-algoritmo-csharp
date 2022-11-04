@@ -51,7 +51,7 @@ class MainClass {
 }
 ```
 
--`Juntando as variáveis...
+- Juntando as variáveis...
 
 ```csharp
 using System;
