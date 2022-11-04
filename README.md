@@ -57,7 +57,7 @@ using System;
 class MainClass {
   public static void Main (string[] args) {
     int idade = 23;
-    double altura = 1.76;
+    double altura = 1.76, peso = 78.9;
     string nome = "João da Silva";
     bool temCNH = true;
     
