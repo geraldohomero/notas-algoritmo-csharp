@@ -18,3 +18,17 @@ static void Main(string[] args)
   bool temCasa;
 }
 ```
+
+## Estruturas
+
+### Sequencial
+Executar os comandos na sequencia que foram determinados.
+
+#### Comando de atribuição
+
+C# - símbolo `=`
+
+Sintaxe: `variável = expressão`
+
+### Condicional
+### de Repetição
