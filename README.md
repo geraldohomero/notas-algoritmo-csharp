@@ -100,7 +100,7 @@ class MainClass {
   }
 }
 ```
-## Comando de entrada de dados
+### Comando de entrada de dados
 
 ```csharp
 variavel = ConsoleReadLine();
