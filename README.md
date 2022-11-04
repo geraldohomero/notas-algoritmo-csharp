@@ -66,6 +66,15 @@ class MainClass {
   }
 }
 ```
+### Comandos de saídas de dados
+
+```csharp
+Console.Write("Mensagem a se impessa");
+Console.Write(var);
+Console.Wite("Mansagem1 " + var1 + "Mensagem 2 " + var2);
+```
+
+Importante usar o espaço dentro das aspas paa que os dados (textos e conteúdos de variáveis) sejam impressos separados uns dos outros.
 
 ## Condicional
 ## de Repetição
