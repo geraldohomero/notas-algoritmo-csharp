@@ -21,14 +21,14 @@ static void Main(string[] args)
 
 ## Estruturas
 
-### Sequencial
+## Sequencial
 Executar os comandos na sequencia que foram determinados.
 
-#### Comando de atribuição
+### Comando de atribuição
 
 C# - símbolo `=`
 
 Sintaxe: `variável = expressão`
 
-### Condicional
-### de Repetição
+## Condicional
+## de Repetição
