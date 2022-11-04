@@ -81,6 +81,25 @@ Console.Write("Mansagem1 "+var1+"Mensagem 2 "+var2);
 Console.WriteLine(...)
 ```
 >O  cursos pula para a primeira coluna da próxima linha.
+using System;
+```csharp
+class MainClass {
+  public static void Main (string[] args) {
+    int idade = 27;
+    string nome = "João da Silva";
+
+    // Concatenação
+    Console.WriteLine("Meu nome é "+nome+" e tenho "+idade+" anos de idade.");
+    // Placeholder
+    Console.WriteLine("Meu nome é {0} e tenho {1} anos de idade.", nome, idade);
+    // Interpolação
+    Console.WriteLine($"Meu nome é {nome} e tenho {idade} anos de idade.");
+
+    Console.ReadKey();
+    
+  }
+}
+```
 
 ## Condicional
 ## de Repetição
