@@ -30,7 +30,7 @@ C# - símbolo `=`
 
 Sintaxe: `variável = expressão`
 
-```cshap
+```csharp
 using System;
 
 class MainClass {
