@@ -7,6 +7,8 @@
 - `string`: variáveis do tipo caractere - 'João da Silva', 'Av. Brasil'...
 - `bool`: variáveis do tipo "booleano" (`true` ou `false`)
 
+### Exemplo:
+
 ```csharp
 static void Main(string[] args)
 {
