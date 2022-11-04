@@ -100,6 +100,12 @@ class MainClass {
   }
 }
 ```
+## Comando de entrada de dados
+
+```csharp
+variavel = ConsoleReadLine();
+```
+>Comando utilizado para receber valores digitados pelos usuários
 
 ## Condicional
 ## de Repetição
