@@ -109,16 +109,16 @@ variavel = ConsoleReadLine();
 >Comando utilizado para receber valores digitados pelos usuários
 
 - Lendo valoes inteiros
-
-`variavel = int.Parse(Console.ReadLine());` - Valor convertido para inteio
-`varariavel = Convet.ToInt32(Console.ReadLine());` - valor convetido para inteiro
-
+```csharp
+variavel = int.Parse(Console.ReadLine()); // Valor convertido para inteio
+varariavel = Convet.ToInt32(Console.ReadLine()); // valor convetido para inteiro
+```
 - Lendo valores reais
-
-`variavel = Double.Parse(Console.ReadLine());`
-`variavel = float.Pase(Console.ReadLine());`
-`variavel = Convert.ToDouble(Console.ReadLine());`
-
+```csharp
+variavel = Double.Parse(Console.ReadLine());
+variavel = float.Pase(Console.ReadLine());
+variavel = Convert.ToDouble(Console.ReadLine());
+```
 
 ## Condicional
 ## de Repetição
