@@ -13,7 +13,7 @@
 static void Main(string[] args)
 {
   int idade, numero;
-  double altura, peso, salário;
+  double altura, peso, salario;
   string nomePai, rua, bairro, dtNasc;
   bool temCasa;
 }
