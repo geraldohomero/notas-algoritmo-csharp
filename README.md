@@ -159,7 +159,7 @@ class MainClass {
   }
 }
 ```
->interessante sempre o ```csharp Console.ReadLine();``` vir acompanhado de um `Comsole.Write();`:
+>interessante sempre o Console.ReadLine();` vir acompanhado de um `Comsole.Write();`:
 
 ```csharp
 using System;
