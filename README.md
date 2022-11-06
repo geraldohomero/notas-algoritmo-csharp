@@ -80,7 +80,7 @@ Console.Write("Mansagem1 "+var1+"Mensagem 2 "+var2);
 ```csharp 
 Console.WriteLine(...)
 ```
->O  cursos pula para a primeira coluna da próxima linha.
+>O  cursor pula para a primeira coluna da próxima linha.
 ```csharp
 using System;
 
