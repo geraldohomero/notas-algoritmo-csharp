@@ -68,7 +68,8 @@ class MainClass {
   }
 }
 ```
-### Comandos de saídas de dados
+***
+## Comandos de saídas de dados
 
 ```csharp
 Console.Write("Mensagem a ser impressa");
@@ -101,7 +102,8 @@ class MainClass {
   }
 }
 ```
-### Comando de entrada de dados
+***
+## Comando de entrada de dados
 
 ```csharp
 variavel = ConsoleReadLine();
@@ -130,7 +132,7 @@ variavel = ConsoleReadLine();
 ```csharp
 variavel = bool.Parse(Console.ReadLine():
 ```
-## Exemplo
+### Exemplo:
 ```csharp
 using System;
 
@@ -181,5 +183,68 @@ class MainClass {
   }
 }
 ```
+## Operações aritméticas
+
+### Operadores:
+
+|Operador |    Operação | Exemplo                |
+|:-------:|:------------|:------------------------|
+| `+`     |     Soma    | soma = numero + 100;   | 
+| `-`     |   Subtração | result = 100 - soma;   |
+| `*`     |Multiplicação| INSS = salario * 0.11; |
+| `\`     |   Divisão   | media = soma / qtde;   |
+| `%`     |Resto de uma divisão inteira| resto = numero % 2;|
+
+>Exemplo `%` | `resto = numero % 2` (pega o valor da variável `numero` dividido por 2 e calcular o "resto" desta divisão)
+
+### Operadores de atribuição combinados:
+
+|Operador |    Operação | Exemplo                | Significado |
+|:-------:|:------------|:-----------------------| :--------   |
+|`+=`     | Soma        |      soma += 100;      | soma = soma + 100; |
+|`-=`     | Subtração   |      result -= 20;     | result = result - 20;|
+| `*=`    | Multiplicação| dobro *= 2;           | dobro = dobro * 2; |
+|`/=`     | Divisão     | metade /= 2;           |metade = metade / 2;|
+|`%`| Resto de uma divisão inteira| resto %=7;   | resto = resto / 7; |
+
+>Mesma variável aparecendo do lado `direito` e `esquerdo` da operação
+
+### Operadores de incremento e descremento
+|Operador |    Operação    | Exemplo| Significado|
+|:-------:|:---------------|:-----| :-------  |
+| `++`    | Pré-incremento | ++x; | x = x + 1;|
+|         | Pós-incremento | x++; | x = x + 1;|
+| `--`    | Pré-decremento | --x; | x = x - 1;|
+|         | Pós-decremento | x--; | x = x - 1;|
+
+### Exemplo:
+```csharp
+using System;
+
+class MainClass {
+  public static void Main (string[] args) {
+    int preinc = 7, posinc = 7, predec = 7, posdec = 7;
+    Console.WriteLine($"preinc = {++preinc}");
+    Console.WriteLine($"posinc = {posinc++}");
+    Console.WriteLine($"predec = {--predec}");
+    Console.WriteLine($"posdec = {posdec--}");
+    Console.WriteLine("\nREIMPRIMINDO");
+    Console.WriteLine($"preinc = {preinc}");
+    Console.WriteLine($"posinc = {posinc}");
+    Console.WriteLine($"predec = {predec}");
+    Console.WriteLine($"posdec = {posdec}");
+  }
+}
+```
+> `++x` Primeiro incrementa, depois imprime a variável `++preinc = 8`
+
+> `x++` Primeiro imprime, depois incrementa `posinc = 7`
+
+> `--x` Primeiro decrementa, depois imprime `--predec = 6`
+
+> `x--`Primeiro imprime, depois decrementa `posdec = 7`
+
+9 dividido por 4 é igual a 2 e resta 1
+
 ## Condicional
 ## de Repetição
