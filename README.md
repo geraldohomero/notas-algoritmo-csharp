@@ -68,7 +68,6 @@ class MainClass {
   }
 }
 ```
-***
 ## Comandos de saídas de dados
 
 ```csharp
@@ -102,7 +101,6 @@ class MainClass {
   }
 }
 ```
-***
 ## Comando de entrada de dados
 
 ```csharp
