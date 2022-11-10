@@ -304,7 +304,3 @@ class MainClass {
 - 1º Parênteses
 - 2º Operadores `*`, `/` e `%`
 - 3º Operadores `+` e `-`
-
-
-## Condicional
-## de Repetição
