@@ -21,7 +21,7 @@ static void Main(string[] args)
 
 # Estruturas
 
-## Sequencial
+# Sequencial
 Executar os comandos na sequencia que foram determinados.
 
 - Comando de atribuição
@@ -244,9 +244,66 @@ class MainClass {
 
 > `x--`Primeiro imprime, depois decrementa `posdec = 7`
 
-9 dividido por 4 é igual a 2 e resta 1
+- 9 dividido por 4 é igual a 2 e resta 1
 
 ![image](https://user-images.githubusercontent.com/70844369/201221434-e27ec068-ddc5-415a-b70d-79fafdde5535.png)
+
+### Potenciação e radiciação
+
+| Função | Operação | Exemplo |
+|:---: | :---- | :-------|
+|`Math.Sqrt()` | Radiciação | Raiz = Math.Sqrt(9);|
+|`Math.Pow()` |Potenciação e Radiciação | Quadrado = Math.Pow(9, 2);|
+|             |                     | RaizCubica = Math.Pow(81, (1.0/3)); |
+
+>Variáveis que recebem o resuldado das funções `Math.Pow()` e `Math.Sqrt()` devem ser do tipo `Double`, pois as funções retornam valores do tipo `Double`.
+
+### Cálculo de porcentagem:
+
+Exemplo: 13% de algum valor...
+
+>`0.13 * valor` ou `(13/100) * valor;
+***
+### Exemplos de operações aritméticas:
+```csharp
+using System;
+
+class MainClass {
+  public static void Main (string[] args) {
+   int a = 5, b = 2, c;
+   int Soma, Subt, Mult, Quociente, Resto;
+   Double DivExata, RaizQuadrada, Quadrado, Cubo, RaizCubica;
+   // Realização dos cálculos
+   Soma = a + b;
+   Subt = a - b;
+   Mult = a * b;
+   Quociente = a / b;
+   Resto = a % b;
+   DivExata = 9 / 2.0;
+   RaizQuadrada = Math.Sqrt(36);
+   Quadrado = Math.Pow(a, b);
+   c = b + 1;
+   Cubo = Math.Pow(c, c);
+   RaizCubica = Math.Pow(125, 1/3.0);
+   // Impressão dos resultados
+   Console.WriteLine($"{a} + {b} = {Soma}");
+   Console.WriteLine($"{a} - {b} = {Subt}"); 
+   Console.WriteLine($"{a} * {b} = {Mult}");
+   Console.WriteLine($"{a} / {b} = {Quociente}");
+   Console.WriteLine($"{a} % {b} = {Resto}");
+   Console.WriteLine($"9 / 2.0 = {DivExata}"); 
+   Console.WriteLine($"A raiz quadrada de 36 = {RaizQuadrada}");
+   Console.WriteLine($"{a} elevado a {b} = {Quadrado}"); 
+   Console.WriteLine($"{c} elevado a {c} = {Cubo}"); 
+   Console.WriteLine($"A raiz cubica de 125 = {RaizCubica}"); 
+  }
+}
+```
+### Ordem de execução dos operadores aritméticos:
+
+- 1º Parênteses
+- 2º Operadores `*`, `/` e `%`
+- 3º Operadores `+` e `-`
 
 
 ## Condicional
