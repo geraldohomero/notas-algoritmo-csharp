@@ -114,11 +114,13 @@ variavel = int.Parse(Console.ReadLine()); // Valor convertido para inteio
 varariavel = Convet.ToInt32(Console.ReadLine()); // valor convetido para inteiro
 ```
 - Lendo valores reais
+
 ```csharp
 variavel = Double.Parse(Console.ReadLine());
-variavel = float.Pase(Console.ReadLine());
+variavel = float.Parse(Console.ReadLine());
 variavel = Convert.ToDouble(Console.ReadLine());
 ```
+
 - Lendo texto
 >sem a necessidade de conversão
 ```csharp
