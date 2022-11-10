@@ -7,12 +7,10 @@ class MainClass {
     float n5;
     string s;
     bool b1, b2;
-    // Leitura de Inteiros
     Console.Write("Digite um número inteiro: ");
     n1 = int.Parse(Console.ReadLine());
     Console.Write("Digite outro número inteiro: ");
     n2 = Convert.ToInt32(Console.ReadLine());
-    // Leitura de valores ponto-flutuante
     Console.Write("Digite um número real: ");
     n3 = double.Parse(Console.ReadLine());
     Console.Write("Digite outro número real: ");
