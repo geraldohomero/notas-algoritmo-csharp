@@ -246,5 +246,8 @@ class MainClass {
 
 9 dividido por 4 é igual a 2 e resta 1
 
+![image](https://user-images.githubusercontent.com/70844369/201221434-e27ec068-ddc5-415a-b70d-79fafdde5535.png)
+
+
 ## Condicional
 ## de Repetição
