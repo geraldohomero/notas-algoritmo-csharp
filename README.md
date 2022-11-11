@@ -302,3 +302,18 @@ class MainClass {
 - 1º Parênteses
 - 2º Operadores `*`, `/` e `%`
 - 3º Operadores `+` e `-`
+
+### Conversão de tipos
+
+- Conversão implícita
+```csharp
+int x = 5;
+Double y = x;
+```
+- Type casting (conversão explítica)
+
+```csharp
+int x = 5, y = 2;
+float f = (float)x/y;
+Double d = x/(Double)y;
+```
