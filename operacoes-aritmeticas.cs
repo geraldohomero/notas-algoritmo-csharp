@@ -17,7 +17,7 @@ class MainClass {
    c = b + 1;
    Cubo = Math.Pow(c, c);
    RaizCubica = Math.Pow(125, 1/3.0);
-   // Impressão dos resultados
+   // Impressão
    Console.WriteLine($"{a} + {b} = {Soma}");
    Console.WriteLine($"{a} - {b} = {Subt}"); 
    Console.WriteLine($"{a} * {b} = {Mult}");
