@@ -299,7 +299,7 @@ class MainClass {
 ```
 ### Ordem de execução dos operadores aritméticos:
 
-- 1º Parênteses
+- 1º Parênteses `()`
 - 2º Operadores `*`, `/` e `%`
 - 3º Operadores `+` e `-`
 
