@@ -316,3 +316,25 @@ int x = 5, y = 2;
 float f = (float)x/y;
 Double d = x/(Double)y;
 ```
+
+# Estrutura Condicional
+
+### Condicional simples
+
+- `if` se um comando será execurato ou não, dependendo se a condição é `verdadeira` ou `falsa`.
+
+```
+se estiver chovendo
+  vou levar o guarda-chuva
+```
+
+### Condicional composto
+
+- `if-else` qual comando será executado, se o comando seguinte ao `if` ou o seguinte ao `else`.
+
+```
+se estiver chovendo
+  vou de carro
+senão
+  vou de moto
+```
