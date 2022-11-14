@@ -467,3 +467,48 @@ if (nota >= 60) {  //essa forma reduz o código em UMA LINHA
 
 [Resultado](./csharp-code/exercicio-csharp-inss.cs)
 
+### Ladder `if`
+
+```csharp
+if (condição1)
+  comando1;
+else if (condição2)
+  comando2;
+...
+else if (condiçãoN)
+  comandoN;
+```
+
+### Nested `if`
+
+```csharp
+if (condição1)
+  comando1;
+else
+if (condição2)
+    comando2;
+  else
+    if (condição3)
+      comando3;
+...
+          else
+            if (condiçãoN)
+              comandoN
+              else
+                comandoN+1;
+```
+
+## `Else`oscilante
+
+```csharp
+if (Richter >= 0)
+{
+    if (Richter <= 4)
+      Console.WriteLine("Terremoto inofensivo!");
+}
+else
+  Console.WriteLine("Escola Richter não permite valores negativos!");
+```
+>Agora `else` se refere ao primeiro `if`.
+
+>Sem as chaves `{}` o `else` estaria ligado ao `if` mais próximo.
