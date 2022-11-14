@@ -18,9 +18,9 @@ static void Main(string[] args)
   bool temCasa;
 }
 ```
-# Estruturas
+### Estruturas
 
-# Sequencial
+# 1 - Sequencial
 Executar os comandos na sequencia que foram determinados.
 
 - Comando de atribuição
@@ -317,7 +317,7 @@ float f = (float)x/y;
 Double d = x/(Double)y;
 ```
 
-# Estrutura Condicional
+# 2 - Estrutura Condicional
 
 ### Condicional simples
 
@@ -337,4 +337,26 @@ se estiver chovendo
   vou de carro
 senão
   vou de moto
+```
+
+### Sintaxe
+```csharp
+if (condição) // "true" ou "false"
+  comando;
+```
+
+```csharp
+using System;
+
+class MainClass {
+    public static void Main (string[] args) {
+      int nota;
+      Console.Write("Digite a nota do aluno: ");
+      nota = int.Parse(Console.ReadLine());
+      if (nota >= 60)
+        Console.WriteLine("O aluno foi aprovado.");
+      else 
+        Console.WriteLine("O aluno foi reprovado.");
+    }
+}
 ```
