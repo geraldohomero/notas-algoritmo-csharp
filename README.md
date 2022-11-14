@@ -536,3 +536,4 @@ switch(opcao)
     //operação padrão...
 }
 ```
+[Exemplo-switch-case](./csharp-code/teste-switch-mes.cs)
