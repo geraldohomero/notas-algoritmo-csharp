@@ -512,3 +512,27 @@ else
 >Agora `else` se refere ao primeiro `if`.
 
 >Sem as chaves `{}` o `else` estaria ligado ao `if` mais próximo.
+
+## Comando `switch`/`case`
+- É uma estrutura condicional que define o código a ser executado baseando-se não em uma condição, mas em uma comparação de valores e/ou alternativas.
+
+### Sintaxe
+```csharp
+switch(opcao)
+{
+  case op1:
+    //comandos caso a opção 1 tenha sido escolhida
+    break;
+  case op2:
+    //comandos caso a opção 2 tenha sido escolhida
+    break;
+...
+
+  case opN:
+    //comandos caso a opção N tenha sido escolhida
+    break;
+  default:
+    //comandos caso nenhuma das opções anteriores tenha sido escolhida
+    //operação padrão...
+}
+```
