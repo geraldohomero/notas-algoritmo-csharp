@@ -432,3 +432,26 @@ if (nota >= 60) {  //essa forma reduz o código em UMA LINHA
 |`2 pipes`(OR)|Um V = V    | if (idade >= 65 `OR` salario < 1000);| 
 |`!`(NOT)|Nega a condição| if (`!` (x==y `&&` a >= b)) |
 
+## Tabela verdade
+`&&` AND
+|A|B|A&&B|
+|-|-|----|
+|true|true|true|
+|true|false|false|
+|false|true|false|
+|false|false|false|
+
+`||` OR
+
+|A|B|A(OR)B|
+|-|-|------|
+|true|true|true|
+|true|false|true|
+|false|true|true|
+|false|false|false|
+
+`!` NOT
+|A|!A|
+|-|--|
+|true|false|
+|false|true|
