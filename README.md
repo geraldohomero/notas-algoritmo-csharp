@@ -460,7 +460,7 @@ if (nota >= 60) {  //essa forma reduz o código em UMA LINHA
 >Faça um programa em C# para calcular e imprimir o valor a ser descontado de INCC no salário de um empregado utilizando a tabela abaixo. O usuário fornecerá o salário.
 
 |Faixa salarial| Alíquota|
-|-----|------|
+|--------------|---------|
 |Até R$ 1000,00| 8%|
 |Entre R$1000,00 e 1800,00| 10%|
 |Acima de R$1800,00| 12%|
