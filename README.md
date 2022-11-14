@@ -343,7 +343,16 @@ senão
 ```csharp
 if (condição) // "true" ou "false"
   comando;
+
+// // //
+
+if (condição) //"true" ou "false"
+  comando1;
+else
+  comando2;
 ```
+
+### Exemplo: 
 
 ```csharp
 using System;
@@ -357,6 +366,28 @@ class MainClass {
         Console.WriteLine("O aluno foi aprovado.");
       else 
         Console.WriteLine("O aluno foi reprovado.");
-    }
+  }
+}
+```
+## Blocos de comandos
+
+>Normalmente os comandos com `if` e/ou `else` são constituidos por múltiplos comandos. Devemos agrupá-los por `{}` para a formação dos `blocos` de comandos.
+
+```csharp
+using System;
+
+class MainClass {
+    public static void Main (string[] args) {
+      int nota;
+      Console.Write("Digite a nota do aluno: ");
+      nota = int.Parse(Console.ReadLine());
+      if (nota >= 60)
+      {
+        Console.WriteLine("O aluno foi aprovado.");
+        Console.WriteLine("Parabéns!!!"); // comando adicional...tornando o uso de chaves obrigatório.
+      }
+      else 
+        Console.WriteLine("O aluno foi reprovado."); // um único comando...tornando o uso das chaves opcional.
+  }
 }
 ```
