@@ -255,7 +255,7 @@ class MainClass {
 
 >Variáveis que recebem o resuldado das funções `Math.Pow()` e `Math.Sqrt()` devem ser do tipo `Double`, pois as funções retornam valores do tipo `Double`.
 
-### Cálculo de porcentagem:
+## Cálculo de porcentagem:
 
 Exemplo: 13% de algum valor...
 
