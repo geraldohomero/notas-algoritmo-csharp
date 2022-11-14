@@ -421,3 +421,14 @@ if (nota >= 60) {  //essa forma reduz o código em UMA LINHA
 |`!=`| Desigualdade| x != y|
 
 >O operador `==` é para fazer comparação entre valores ou entre variáveis, sendo diferente do operador `=` de ATRIBUIÇÃO (aquele que armazena um valor).
+
+## Operadores booleanos
+
+`&&` (AND), `||`(OR),  `!`(NOT)
+
+|Operador |    Operação| Exemplo|
+|:-------:|:-----------|:-------|
+|`&&`(AND)|Todos V = V | if (nota >= 60 `&&` faltas <= 17); |
+|`2 pipes`(OR)|Um V = V    | if (idade >= 65 `OR` salario < 1000);| 
+|`!`(NOT)|Nega a condição| if (`!` (x==y `&&` a >= b)) |
+
