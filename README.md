@@ -18,7 +18,6 @@ static void Main(string[] args)
   bool temCasa;
 }
 ```
-
 # Estruturas
 
 # Sequencial
