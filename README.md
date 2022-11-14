@@ -430,7 +430,7 @@ if (nota >= 60) {  //essa forma reduz o código em UMA LINHA
 |:-------:|:-----------|:-------|
 |`&&`(AND)|Todos V = V | if (nota >= 60 `&&` faltas <= 17); |
 |`2 pipes`(OR)|Um V = V    | if (idade >= 65 `OR` salario < 1000);| 
-|`!`(NOT)|Nega a condição| if (`!` (x==y `&&` a >= b)) |
+|`!`(NOT)|Nega a condição| if (`!` (x == y `&&` a >= b)) |
 
 ## Tabela verdade
 `&&` AND
@@ -455,3 +455,14 @@ if (nota >= 60) {  //essa forma reduz o código em UMA LINHA
 |-|--|
 |true|false|
 |false|true|
+
+### Exercício:
+>Faça um programa em C# para calcular e imprimir o valor a ser descontado de INCC no salário de um empregado utilizando a tabela abaixo. O usuário fornecerá o salário.
+
+|Faixa salarial| Alíquota|
+|-----|------|
+|Até R$ 1000,00| 8%|
+|Entre R$1000,00 e 1800,00| 10%|
+|Acima de R$1800,00| 12%|
+
+[Resultado](exercicio-csharp.cs)
