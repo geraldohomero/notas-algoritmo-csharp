@@ -465,4 +465,5 @@ if (nota >= 60) {  //essa forma reduz o código em UMA LINHA
 |Entre R$1000,00 e 1800,00| 10%|
 |Acima de R$1800,00| 12%|
 
-[Resultado](./csharp-code/exercicio-csharp.cs)
+[Resultado](./csharp-code/exercicio-csharp-inss.cs)
+
