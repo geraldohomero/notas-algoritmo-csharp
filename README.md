@@ -391,3 +391,20 @@ class MainClass {
   }
 }
 ```
+
+## Layout das chaves `{}`
+>Para o compilados não há diferença.
+```csharp
+if (nota >= 60)
+{
+  Console.WriteLine("O aluno foi aprovado.");
+  Console.WriteLine("Parabéns!!!");
+}
+
+//
+
+if (nota >= 60) {
+  Console.WriteLine("O aluno foi aprovado.");
+  Console.WriteLine("Parabéns!!!");
+}
+```
