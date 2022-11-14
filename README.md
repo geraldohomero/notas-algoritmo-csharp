@@ -493,7 +493,7 @@ if (condição2)
 ...
           else
             if (condiçãoN)
-              comandoN
+              comandoN;
               else
                 comandoN+1;
 ```
