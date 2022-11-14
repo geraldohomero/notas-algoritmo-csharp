@@ -393,7 +393,7 @@ class MainClass {
 ```
 
 ## Layout das chaves `{}`
->Para o compilados não há diferença.
+>Para o compilados não há diferença. Importante sempre manter um padrão durante todo o código.
 ```csharp
 if (nota >= 60)
 {
@@ -403,8 +403,21 @@ if (nota >= 60)
 
 //
 
-if (nota >= 60) {
+if (nota >= 60) {  //essa forma reduz o código em UMA LINHA
   Console.WriteLine("O aluno foi aprovado.");
   Console.WriteLine("Parabéns!!!");
 }
 ```
+
+### Operadores relacionais ou comparativos
+
+|Operador |    Operação| Exemplo|
+|:-------:|:-----------|:-------|
+|`==`|Igualdade| n1 == n2|
+|`<` | Menor | valor < 100 |
+|`>` | Maior | numero1 > numero2|
+|`<=`| Menor ou igual| soma <= 0|
+|`>=`| Maior ou igual| idade >= maioridade|
+|`!=`| Desigualdade| x != y|
+
+>O operador `==` é para fazer comparação entre valores ou entre variáveis, sendo diferente do operador `=` de ATRIBUIÇÃO (aquele que armazena um valor).
