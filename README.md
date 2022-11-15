@@ -1,5 +1,9 @@
 # Notas Agoritmo em C# (PUC Minas)
-
+<!--ts-->
+    * [1 - Estrutura Sequencial](#1---estrutura-sequencial)
+    * [2 - Estrutura Condicional](#2---estrutura-condicional)
+    * [3 - Estrutura de Repetição](#3---estrutura-de-repetição)
+<!--te-->
 # Variáveis
 
 - `int`: variáveis numéricas do tipo inteiro (sem casas decimais) - 9, 12, 13, 500, 90...
@@ -18,9 +22,8 @@ static void Main(string[] args)
   bool temCasa;
 }
 ```
-### Estruturas
 
-# 1 - Sequencial
+# 1 - Estrutura Sequencial
 Executar os comandos na sequencia que foram determinados.
 
 - Comando de atribuição
@@ -591,3 +594,9 @@ Console.WriteLine("O aluno foi "+status);
 ```csharp
 Console.WriteLine("O aluno foi "+ (nota >= 60?"aprovado":"reprovado"));
 ```
+
+```csharp
+INSS = (salario <= 1000 ? salario * 0.8 : salario * 0.10);
+```
+
+# 3 - Estrutura de repetição
