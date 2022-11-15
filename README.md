@@ -551,7 +551,7 @@ condicao ? expressao_true:expressao_false
 
 >Se a `condicao` é `false`, a `expressao_false` será avaliada e retornada
 
-Exemplo:
+Exemplo 1:
 
 ```csharp
 bool passou;
@@ -574,3 +574,17 @@ passou = (nota >= 60 ? true : false);
 // ou //
 passou = (nota >= 60) ? true : false
 ```
+
+Exemplo 2:
+
+```csharp
+string status;
+if (nota >= 60)
+    status = "aprovado";
+else
+    status = "reprovado";
+Console.WriteLine("O aluno foi "+status);
+```
+>Com ternário:
+```csharp
+Console.WriteLine("O aluno foi "+ (nota >= 60?"aprovado":"reprovado"));
