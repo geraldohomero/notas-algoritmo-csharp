@@ -1,8 +1,8 @@
 # Notas Agoritmo em C# (PUC Minas)
 <!--ts-->
-- [Estrutura Sequencial](#estrutura-sequencial)
-- [Estrutura Condicional](#estrutura-condicional)
-- [Estrutura de Repetição](#estrutura-de-repetição)
+1. [Estrutura Sequencial](#estrutura-sequencial)
+2. [Estrutura Condicional](#estrutura-condicional)
+3. [Estrutura de Repetição](#estrutura-de-repetição)
 <!--te-->
 # Variáveis
 
