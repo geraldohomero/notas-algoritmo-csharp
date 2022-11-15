@@ -2,7 +2,9 @@
 
 <!--ts-->
 - ### [Variáveis](#variáveis)
+
 - ### [Estrutura Sequencial](#estrutura-sequencial)
+
     - [Comando de saída de dados](#comandos-de-saídas-de-dados)
     - [Comando de entrada de dados](#comando-de-entrada-de-dados)
     - [Operações aritméticas](#operações-aritméticas)
@@ -15,6 +17,7 @@
     - [Conversão de Tipos](#conversão-de-tipos)
       - [Implícita](#conversão-implícita)
       - [Explícita (Type casting)](#type-casting-conversão-explítica)
+
 - ### [Estrutura Condicional](#estrutura-condicional)
   - [Condicional Simples](#condicional-simples)
   - [Condicional Composto](#condicional-composto)
@@ -29,7 +32,8 @@
   - [Comando switch/case](#comando-switchcase)
   - [Operador ternário](#operador-ternário)
 
-- ### [Estrutura de Repetição](#estrutura-de-repetição)
+- ### [Estrutura de Repetição](#estrutura-de-repetic3a7c3a3o-1)
+
 <!--te-->
 ## Variáveis
 
@@ -627,3 +631,5 @@ INSS = (salario <= 1000 ? salario * 0.8 : salario * 0.10);
 ```
 
 # Estrutura de repetição
+
+- 
