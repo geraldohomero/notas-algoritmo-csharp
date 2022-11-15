@@ -551,7 +551,7 @@ condicao ? expressao_true:expressao_false
 
 >Se a `condicao` é `false`, a `expressao_false` será avaliada e retornada
 
-### Exemplo 1:
+#### Exemplo 1:
 
 ```csharp
 bool passou;
@@ -575,7 +575,7 @@ passou = (nota >= 60 ? true : false);
 passou = (nota >= 60) ? true : false
 ```
 
-### Exemplo 2:
+#### Exemplo 2:
 
 ```csharp
 string status;
