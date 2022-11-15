@@ -1,9 +1,9 @@
 # Notas Agoritmo em C# (PUC Minas)
 
 <!--ts-->
-- ### [Variáveis](#variáveis)
+- [Variáveis](#variáveis)
 
-- ### [Estrutura Sequencial](#estrutura-sequencial)
+- [Estrutura Sequencial](#estrutura-sequencial)
 
     - [Comando de saída de dados](#comandos-de-saídas-de-dados)
     - [Comando de entrada de dados](#comando-de-entrada-de-dados)
@@ -18,7 +18,7 @@
       - [Implícita](#conversão-implícita)
       - [Explícita (Type casting)](#type-casting-conversão-explítica)
 
-- ### [Estrutura Condicional](#estrutura-condicional)
+- [Estrutura Condicional](#estrutura-condicional)
   - [Condicional Simples](#condicional-simples)
   - [Condicional Composto](#condicional-composto)
   - [Blocos de Comandos](#blocos-de-comandos)
@@ -32,7 +32,7 @@
   - [Comando switch/case](#comando-switchcase)
   - [Operador ternário](#operador-ternário)
 
-- ### [Estrutura de Repetição](#estrutura-de-repetic3a7c3a3o-1)
+- [Estrutura de Repetição](#estrutura-de-repetição)
 
 <!--te-->
 ## Variáveis
