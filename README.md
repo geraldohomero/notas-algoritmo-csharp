@@ -7,12 +7,14 @@
     - [Comando de entrada de dados](#comando-de-entrada-de-dados)
     - [Operações aritméticas](#operações-aritméticas)
       - [Operadores](#operadores)
-      - [Operadores de atribuição combinados](#operadores-de-atribuição-combinados)
-      - [Operadores de incremento e descremento](#operadores-de-incremento-e-descremento)
+        - [Operadores de atribuição combinados](#operadores-de-atribuição-combinados)
+        - [Operadores de incremento e descremento](#operadores-de-incremento-e-descremento)
     - [Potenciação e radiciação](#potenciação-e-radiciação)
     - [Cálculo de porcentagem](#cálculo-de-porcentagem)
     - [Ordem de execução dos operadores aritméticos](#ordem-de-execução-dos-operadores-aritméticos)
     - [Conversão de Tipos](#conversão-de-tipos)
+      - [Implícita](#conversão-implícita)
+      - [Explícita (Type casting)](#type-casting-conversão-explítica)
 - ### [Estrutura Condicional](#estrutura-condicional)
   - [Condicional Simples](#condicional-simples)
   - [Condicional Composto](#condicional-composto)
@@ -21,20 +23,22 @@
   - [Operadores relacionais ou comparativos](#operadores-relacionais-ou-comparativos)
   - [Operadores Booleanos](#operadores-booleanos)
   - [Tabela Verdade](#tabela-verdade)
-  - [else oscilante](#elseoscilante)
+  - [Ladder if](#ladder-if)
+  - [Nested if](#nested-if)
+  - [Else oscilante](#elseoscilante)
   - [Comando switch/case](#comando-switchcase)
   - [Operador ternário](#operador-ternário)
 
 - ### [Estrutura de Repetição](#estrutura-de-repetição)
 <!--te-->
-# Variáveis
+## Variáveis
 
 - `int`: variáveis numéricas do tipo inteiro (sem casas decimais) - 9, 12, 13, 500, 90...
 - `double` ou `float`: variáveis numéricas do tipo real (com casas decimais) - 9.8, 13.990...
 - `string`: variáveis do tipo caractere - 'João da Silva', 'Av. Brasil'...
 - `bool`: variáveis do tipo "booleano" (`true` ou `false`)
 
-## Exemplo:
+### Exemplo:
 
 ```csharp
 static void Main(string[] args)
@@ -330,12 +334,12 @@ class MainClass {
 
 ### Conversão de tipos
 
-- Conversão implícita
+#### Conversão implícita
 ```csharp
 int x = 5;
 Double y = x;
 ```
-- Type casting (conversão explítica)
+#### Type casting (conversão explítica)
 
 ```csharp
 int x = 5, y = 2;
