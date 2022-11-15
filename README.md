@@ -1,8 +1,8 @@
 # Notas Agoritmo em C# (PUC Minas)
 
-    *[Estrutura Sequencial](#1-estrutura-sequencial)
-    *[Estrutura Condicional](#2-estrutura-condicional)
-    *[Estrutura de Repetição](#3-estrutura-de-repetição)
+    *[Estrutura Sequencial](#estrutura-sequencial)
+    *[Estrutura Condicional](#estrutura-condicional)
+    *[Estrutura de Repetição](#estrutura-de-repetição)
 # Variáveis
 
 - `int`: variáveis numéricas do tipo inteiro (sem casas decimais) - 9, 12, 13, 500, 90...
