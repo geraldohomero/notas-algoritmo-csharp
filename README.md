@@ -588,3 +588,4 @@ Console.WriteLine("O aluno foi "+status);
 >Com ternário:
 ```csharp
 Console.WriteLine("O aluno foi "+ (nota >= 60?"aprovado":"reprovado"));
+```
