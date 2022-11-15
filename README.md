@@ -537,3 +537,40 @@ switch(opcao)
 }
 ```
 [Exemplo-switch-case](./csharp-code/teste-switch-mes.cs)
+
+### Operador ternário
+>Trabalha sobre 3 operandos. Pode ser utilizado, em alguns casos, no lugar do `if` e `else`.
+
+- Sintaxe:
+```csharp
+condicao ? expressao_true:expressao_false
+```
+>`condicao` é qualquer expressão que retorna um valor `booleano`
+
+>Se a `condicao` é `true`, a `expressao_true` será avaliada e retornada
+
+>Se a `condicao` é `false`, a `expressao_false` será avaliada e retornada
+
+Exemplo:
+
+```csharp
+bool passou;
+if (nota >= 60)
+    passou = true;
+else
+    passou = false;
+```
+
+>Pode ser substituída pelo operador ternário:
+
+```csharp
+passou = nota >= 60 ? true : false;
+```
+
+>Usando parênteses pode tornar mais legível:
+
+```csharp
+passou = (nota >= 60 ? true : false);
+// ou //
+passou = (nota >= 60) ? true : false
+```
