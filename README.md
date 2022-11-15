@@ -1,8 +1,30 @@
 # Notas Agoritmo em C# (PUC Minas)
+
 <!--ts-->
-1. [Estrutura Sequencial](#estrutura-sequencial)
-2. [Estrutura Condicional](#estrutura-condicional)
-3. [Estrutura de Repetição](#estrutura-de-repetição)
+- [Estrutura Sequencial](#estrutura-sequencial)
+    - [Comando de saída de dados](#comandos-de-saídas-de-dados)
+    - [Comando de entrada de dados](#comando-de-entrada-de-dados)
+    - [Operações aritméticas](#operações-aritméticas)
+      - [Operadores](#operadores)
+      - [Operadores de atribuição combinados](#operadores-de-atribuição-combinados)
+      - [Operadores de incremento e descremento](#operadores-de-incremento-e-descremento)
+    - [Potenciação e radiciação](#potenciação-e-radiciação)
+    - [Cálculo de porcentagem](#cálculo-de-porcentagem)
+    - [Ordem de execução dos operadores aritméticos](#ordem-de-execução-dos-operadores-aritméticos)
+    - [Conversão de Tipos](#conversão-de-tipos)
+- [Estrutura Condicional](#estrutura-condicional)
+  - [Condicional Simples](#condicional-simples)
+  - [Condicional Composto](#condicional-composto)
+  - [Blocos de Comandos](#blocos-de-comandos)
+    - [Layout das {} chaves](#layout-das-chaves)
+  - [Operadores relacionais ou comparativos](#operadores-relacionais-ou-comparativos)
+  - [Operadores Booleanos](#operadores-booleanos)
+  - [Tabela Verdade](#tabela-verdade)
+  - [else oscilante](#elseoscilante)
+  - [Comando switch/case](#comando-switchcase)
+  - [Operador ternário](#operador-ternário)
+  
+- [Estrutura de Repetição](#estrutura-de-repetição)
 <!--te-->
 # Variáveis
 
