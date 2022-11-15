@@ -1,5 +1,5 @@
 # Notas Agoritmo em C# (PUC Minas)
-    * [1 - Estrutura Sequencial](#1-estrutura-sequencial)
+    * [Estrutura Sequencial](#1-estrutura-sequencial)
     * [2 - Estrutura Condicional](#2-estrutura-condicional)
     * [3 - Estrutura de Repetição](#3-estrutura-de-repetição)
 # Variáveis
@@ -21,7 +21,7 @@ static void Main(string[] args)
 }
 ```
 
-# 1 - Estrutura Sequencial
+# Estrutura Sequencial
 Executar os comandos na sequencia que foram determinados.
 
 - Comando de atribuição
@@ -318,7 +318,7 @@ float f = (float)x/y;
 Double d = x/(Double)y;
 ```
 
-# 2 - Estrutura Condicional
+# Estrutura Condicional
 
 ### Condicional simples
 
@@ -597,4 +597,4 @@ Console.WriteLine("O aluno foi "+ (nota >= 60?"aprovado":"reprovado"));
 INSS = (salario <= 1000 ? salario * 0.8 : salario * 0.10);
 ```
 
-# 3 - Estrutura de repetição
+# Estrutura de repetição
