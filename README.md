@@ -1,6 +1,7 @@
 # Notas Agoritmo em C# (PUC Minas)
 
 <!--ts-->
+- ### [Variáveis](#variáveis)
 - ### [Estrutura Sequencial](#estrutura-sequencial)
     - [Comando de saída de dados](#comandos-de-saídas-de-dados)
     - [Comando de entrada de dados](#comando-de-entrada-de-dados)
