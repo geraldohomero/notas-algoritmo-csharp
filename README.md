@@ -1,7 +1,7 @@
 # Notas Agoritmo em C# (PUC Minas)
 
 <!--ts-->
-- [Estrutura Sequencial](#estrutura-sequencial)
+- ### [Estrutura Sequencial](#estrutura-sequencial)
     - [Comando de saída de dados](#comandos-de-saídas-de-dados)
     - [Comando de entrada de dados](#comando-de-entrada-de-dados)
     - [Operações aritméticas](#operações-aritméticas)
@@ -12,7 +12,7 @@
     - [Cálculo de porcentagem](#cálculo-de-porcentagem)
     - [Ordem de execução dos operadores aritméticos](#ordem-de-execução-dos-operadores-aritméticos)
     - [Conversão de Tipos](#conversão-de-tipos)
-- [Estrutura Condicional](#estrutura-condicional)
+- ### [Estrutura Condicional](#estrutura-condicional)
   - [Condicional Simples](#condicional-simples)
   - [Condicional Composto](#condicional-composto)
   - [Blocos de Comandos](#blocos-de-comandos)
@@ -23,8 +23,8 @@
   - [else oscilante](#elseoscilante)
   - [Comando switch/case](#comando-switchcase)
   - [Operador ternário](#operador-ternário)
-  
-- [Estrutura de Repetição](#estrutura-de-repetição)
+
+- ### [Estrutura de Repetição](#estrutura-de-repetição)
 <!--te-->
 # Variáveis
 
