@@ -9,8 +9,6 @@
     - [Comando de entrada de dados](#comando-de-entrada-de-dados)
     - [Operações aritméticas](#operações-aritméticas)
       - [Operadores](#operadores)
-        - [Operadores de atribuição combinados](#operadores-de-atribuição-combinados)
-        - [Operadores de incremento e descremento](#operadores-de-incremento-e-descremento)
     - [Potenciação e radiciação](#potenciação-e-radiciação)
     - [Cálculo de porcentagem](#cálculo-de-porcentagem)
     - [Ordem de execução dos operadores aritméticos](#ordem-de-execução-dos-operadores-aritméticos)
