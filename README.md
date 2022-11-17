@@ -770,6 +770,31 @@ class MainClass {
 
 ### Exemplo: 
 
-`somaNotas = somaNotas + nota;`
+`somaNotas = somaNotas + nota;` 
+
+ou 
+
+`somaNotas += nota;` com o operador de atribuição composto.
 
 >enquanto o contador soma um número...o acumulador soma o valor de uma variável.
+
+```csharp
+using System;
+
+class MainClass {
+  public static void Main (string[] args) {
+    Double preco, totalCompra = 0; // Acumulador
+
+    Console.Write("Digite o preco do produto: R$ ");
+    preco = Double.Parse(Console.ReadLine());
+    while (preco > 0) 
+    {
+      totalCompra += preco;
+      Console.Write($"\tSubtotal = R$ {totalCompra:0.00}.\n");
+      Console.Write("Digite o preço do produto: R$ ");
+      preco = Double.Parse(Console.ReadLine());
+    } 
+    Console.Write($"\nO valor total da compra = R$ {totalCompra:0.00}");
+  }
+}
+```

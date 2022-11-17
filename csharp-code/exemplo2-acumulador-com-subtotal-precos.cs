@@ -10,7 +10,7 @@ class MainClass {
     {
       totalCompra = totalCompra + preco;
       Console.Write($"\tSubtotal = R$ {totalCompra:0.00}.\n");
-      Console.Write("Digite o preco do produto: R$ ");
+      Console.Write("Digite o preço do produto: R$ ");
       preco = Double.Parse(Console.ReadLine());
     } 
     Console.Write($"\nO valor total da compra = R$ {totalCompra:0.00}");
