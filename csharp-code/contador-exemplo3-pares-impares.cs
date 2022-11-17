@@ -3,7 +3,7 @@ using System;
 class MainClass {
   public static void Main (string[] args) {
     // Contador de números pares e ímpares
-    int pares = 0, impares; 
+    int pares = 0, impares = 0; 
     int num;
 
     Console.Write("Digite um numero positivo: ");
