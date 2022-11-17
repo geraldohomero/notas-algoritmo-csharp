@@ -698,3 +698,34 @@ class MainClass {
   }
 }
 ```
+### Contador
+
+>Serve para contar ocorRências de algumas situações durante algum laço de repetição
+
+`contador = contador + 1`
+
+#### Exemplo:
+
+`quantidade = quantidade + 1`
+
+```csharp
+using System;
+
+class MainClass {
+  public static void Main (string[] args) {
+    int positivos = 0; // Contador de números positivos
+    int num;
+    Console.Write("Digite um numero entre -100 e 100: ");
+    num = int.Parse(Console.ReadLine());
+    while (num >= -100 && num <= 100) 
+    {
+      if(num > 0)
+        positivos = positivos + 1;
+      Console.Write("Digite um numero entre -100 e 100: ");
+      num = int.Parse(Console.ReadLine());
+    } 
+    Console.Write($"Foram digitados {positivos} numeros positivos.");
+  }
+}
+```
+>Contadores só funcionam dentro de comandos de repetição
