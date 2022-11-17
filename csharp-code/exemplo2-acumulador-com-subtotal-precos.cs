@@ -9,6 +9,7 @@ class MainClass {
     while (preco > 0) 
     {
       totalCompra = totalCompra + preco;
+      Console.Write($"\tSubtotal = R$ {totalCompra:0.00}.\n");
       Console.Write("Digite o preco do produto: R$ ");
       preco = Double.Parse(Console.ReadLine());
     } 
