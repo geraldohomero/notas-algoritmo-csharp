@@ -28,6 +28,8 @@
   - [Operador ternário](#operador-ternário)
 - [Estrutura de Repetição](#estrutura-de-repetição)
   - [Comandos](#comandos)
+  - [Contador](#contador)
+    - [Formas de incremento](#formas-de-incremento)
 <!--te-->
 ## Variáveis
 
@@ -754,3 +756,9 @@ class MainClass {
   }
 }
 ```
+### Formas de incremento: 
+`qtde = qtde + 1`
+
+`qtde++`
+
+`qtde += 1`
