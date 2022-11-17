@@ -5,7 +5,7 @@ class MainClass {
     Double numero, raiz;
     // Calcula a raiz quadrada de 10 numeros
     for(int cont = 1; cont <= 10; cont++)
-    {  //int pode ser em cima também
+    { //int pode ser em cima também
       Console.Write("Digite um numero: ");
       numero = Double.Parse(Console.ReadLine()); 
       raiz = Math.Sqrt(numero);
