@@ -631,7 +631,9 @@ INSS = (salario <= 1000 ? salario * 0.8 : salario * 0.10);
 |-|-|
 |`while` |repetição com teste no início|
 |`do...while`| repetição com teste no final |
-|`for`|   |
+|`for`|  repetição contada (quando queremos |
+|     |fazer um número pré-determinado de repetições|
+|     |    ou uma simplificação do `while`   |
 
 - `while`
 
@@ -662,7 +664,7 @@ using System;
 class MainClass {
   public static void Main (string[] args) {
     Double numero, raiz;
-    
+
     do
     {
       Console.Write("Digite um numero: ");
@@ -673,6 +675,26 @@ class MainClass {
         Console.WriteLine($"A raiz quadrada de {numero} = {raiz}");
       }
     } while (numero > 0);
+  }
+}
+```
+
+- `for`
+
+```csharp
+using System;
+
+class MainClass {
+  public static void Main (string[] args) {
+    Double numero, raiz;
+    // Calcula a raiz quadrada de 10 numeros
+    for(int cont = 1; cont <= 10; cont++)
+    {
+      Console.Write("Digite um numero: ");
+      numero = Double.Parse(Console.ReadLine()); 
+      raiz = Math.Sqrt(numero);
+      Console.WriteLine($"A raiz quadrada de {numero} = {raiz}");
+    }
   }
 }
 ```
