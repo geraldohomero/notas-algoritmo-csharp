@@ -700,7 +700,7 @@ class MainClass {
   }
 }
 ```
-### Contador
+## Contador
 
 >Serve para contar ocorRências de algumas situações durante algum laço de repetição
 
@@ -762,3 +762,14 @@ class MainClass {
 `qtde++`
 
 `qtde += 1`
+
+## Acumuladores
+>Calcular o somatório de algum valor - pode ser uma variável inteira ou real, diferentemente do contador, que sempre é uma variável inteira.
+
+`acumulador = acumulador + variável de que deseja somar;`
+
+### Exemplo: 
+
+`somaNotas = somaNotas + nota;`
+
+>enquanto o contador soma um número...o acumulador soma o valor de uma variável.
