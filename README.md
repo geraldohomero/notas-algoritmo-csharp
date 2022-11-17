@@ -27,7 +27,7 @@
   - [Comando switch/case](#comando-switchcase)
   - [Operador ternário](#operador-ternário)
 - [Estrutura de Repetição](#estrutura-de-repetição)
-
+  - [Comandos](#comandos)
 <!--te-->
 ## Variáveis
 
