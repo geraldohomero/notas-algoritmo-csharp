@@ -626,4 +626,50 @@ INSS = (salario <= 1000 ? salario * 0.8 : salario * 0.10);
 
 # Estrutura de repetição
 
-- 
+### Comandos
+| | |
+|-|-|
+|`while` |repetição com teste no início|
+|`do...while`| repetição com teste no final |
+|`for`|   |
+
+- `while`
+
+```csharp
+using System;
+class MainClass {
+  public static void Main (string[] args) {
+    Double numero, raiz;
+
+    Console.Write ("Digite um número: ");
+    numero = Double.Parse(Console.ReadLine());
+    while (numero > 0) //enquanto a condição for verdadeira haverá a repetição
+    {
+      raiz = Math.Sqrt(numero);
+      Console.WriteLine($"A raíz quadrada de {numero} = {raiz}");
+      Console.Write("Digite um número: ");
+      numero = Double.Parse(Console.ReadLine());
+    }
+  }
+}
+```
+
+- `do...while`
+
+```csharp
+using System;
+
+class MainClass {
+  public static void Main (string[] args) {
+    Double numero, raiz;
+
+    do
+    {
+      Console.Write("Digite um numero: ");
+      numero = Double.Parse(Console.ReadLine());  
+      raiz = Math.Sqrt(numero);
+      Console.WriteLine($"A raiz quadrada de {numero} = {raiz}");
+    } while (numero > 0);
+  }
+}
+```
