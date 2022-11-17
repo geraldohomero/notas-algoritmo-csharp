@@ -30,6 +30,7 @@
   - [Comandos](#comandos)
   - [Contador](#contador)
     - [Formas de incremento](#formas-de-incremento)
+  - [Acumulador](#acumuladores)
 <!--te-->
 ## Variáveis
 
