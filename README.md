@@ -1,5 +1,5 @@
 # Notas Agoritmo em C# (PUC Minas)
-
+***
 <!--ts-->
 - [Variáveis](#variáveis)
 - [Estrutura Sequencial](#estrutura-sequencial)
@@ -32,6 +32,8 @@
     - [Formas de incremento](#formas-de-incremento)
   - [Acumulador](#acumuladores)
 <!--te-->
+
+***
 >Baixar `.NET` e `Mono` no `Linux` para que a extensão `CS-script` funcione corretamente no VS Code.
 ## Variáveis
 
