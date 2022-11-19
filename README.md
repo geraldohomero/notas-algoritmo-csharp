@@ -36,7 +36,7 @@
 ## Variáveis
 
 - `int`: variáveis numéricas do tipo inteiro (sem casas decimais) - 9, 12, 13, 500, 90...
-- `double` ou `float`: variáveis numéricas do tipo real (com casas decimais) - 9.8, 13.990...
+- `Double` ou `float`: variáveis numéricas do tipo real (com casas decimais) - 9.8, 13.990...
 - `string`: variáveis do tipo caractere - 'João da Silva', 'Av. Brasil'...
 - `bool`: variáveis do tipo "booleano" (`true` ou `false`)
 
@@ -46,7 +46,7 @@
 static void Main(string[] args)
 {
   int idade, numero;
-  double altura, peso, salario;
+  Double altura, peso, salario;
   string nomePai, rua, bairro, dtNasc;
   bool temCasa;
 }
@@ -67,7 +67,7 @@ using System;
 class MainClass {
   public static void Main(string[] args) {
     int idade;
-    double altura, peso, copiaPeso, IMC;
+    Double altura, peso, copiaPeso, IMC;
     string nome;
     bool temCNH;
     
@@ -90,7 +90,7 @@ using System;
 class MainClass {
   public static void Main (string[] args) {
     int idade = 23;
-    double altura = 1.76, peso = 78.9;
+    Double altura = 1.76, peso = 78.9;
     string nome = "João da Silva";
     bool temCNH = true;
     
@@ -168,7 +168,7 @@ using System;
 class MainClass {
   public static void Main (string[] args) {
     int n1, n2;
-    double n3, n4;
+    Double n3, n4;
     float n5;
     string s;
     bool b1, b2;
@@ -200,7 +200,7 @@ using System;
 class MainClass {
   public static void Main (string[] args) {
     int n1, n2, soma;
-    double media;
+    Double media;
     Console.Write("Digite um número: ");
     n1 = int.Parse(Console.ReadLine());
     Console.Write("Digite outro número: ");
