@@ -32,7 +32,7 @@
     - [Formas de incremento](#formas-de-incremento)
   - [Acumulador](#acumuladores)
 <!--te-->
->Baixar .NET e Mono no Linux para que a extensão CS-script funcione corretamente no VS Code.
+>Baixar `.NET` e `Mono` no `Linux` para que a extensão `CS-script` funcione corretamente no VS Code.
 ## Variáveis
 
 - `int`: variáveis numéricas do tipo inteiro (sem casas decimais) - 9, 12, 13, 500, 90...
