@@ -294,6 +294,7 @@ class MainClass {
 Exemplo: 13% de algum valor...
 
 >`0.13 * valor` ou `(13/100) * valor`;
+
 ***
 ### Exemplos de operações aritméticas:
 ```csharp
