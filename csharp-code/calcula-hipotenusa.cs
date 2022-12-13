@@ -9,7 +9,6 @@ class MainClass {
     Console.Write("Informe o valor do segundo cateto: ");
     Cateto2 = Double.Parse(Console.ReadLine());
 
-    
     Hipotenusa = Math.Sqrt(Math.Pow(Cateto1,2) + Math.Pow(Cateto2,2));
     Console.WriteLine($"A Hipotenusa é = {Hipotenusa}");
   }
