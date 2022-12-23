@@ -100,6 +100,7 @@ class MainClass {
     IMC = peso / (altura * altura);
   }
 }
+
 ```
 ## Comandos de saídas de dados
 
@@ -113,7 +114,9 @@ Console.Write("Mansagem1 "+var1+"Mensagem 2 "+var2);
 ```csharp 
 Console.WriteLine(...)
 ```
+
 >O  cursor pula para a primeira coluna da próxima linha.
+
 ```csharp
 using System;
 
@@ -133,6 +136,7 @@ class MainClass {
     
   }
 }
+
 ```
 ## Comando de entrada de dados
 
@@ -146,6 +150,7 @@ variavel = ConsoleReadLine();
 variavel = int.Parse(Console.ReadLine()); // Valor convertido para inteio
 varariavel = Convet.ToInt32(Console.ReadLine()); // valor convetido para inteiro
 ```
+
 - Lendo valores reais
 
 ```csharp
@@ -155,15 +160,20 @@ variavel = Convert.ToDouble(Console.ReadLine());
 ```
 
 - Lendo texto
+
 >sem a necessidade de conversão
+
 ```csharp
 variavel = ConsoleReadLine();
 ```
+
 - Lendo valores booleanos
 ```csharp
 variavel = bool.Parse(Console.ReadLine():
 ```
+
 ### Exemplo:
+
 ```csharp
 using System;
 
@@ -194,6 +204,7 @@ class MainClass {
   }
 }
 ```
+
 >interessante sempre o `Console.ReadLine();` vir acompanhado de um `Console.Write();`:
 
 ```csharp
